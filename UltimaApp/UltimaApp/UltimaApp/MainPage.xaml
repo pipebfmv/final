@@ -2,13 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:UltimaApp"
-             x:Class="UltimaApp.MainPage">
+             x:Class="UltimaApp.MainPage"
+             >
+    
+    <StackLayout Orientation="Vertical" Margin="5,15,5,5">
+        <Image VerticalOptions="StartAndExpand"  
+            Source="http://i.imgur.com/TG8VY.png"/>
 
-    <StackLayout
+        <StackLayout
         Orientation="Vertical"
-        VerticalOptions="Center">
+        VerticalOptions="Center" Margin="5,5,5,5" Padding="0,0,0,150">
 
-        <Entry
+
+            <Entry
             x:Name="entryUser"
             Placeholder="Nombre de usuario"/>
 
@@ -31,5 +37,5 @@
 
 
     </StackLayout>
-
+    </StackLayout>
 </ContentPage>
