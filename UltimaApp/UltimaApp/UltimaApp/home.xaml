@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.home">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+
+            <StackLayout  HorizontalOptions="CenterAndExpand" Margin="15,0,15,0">
+
+                <Label Text="CARNAVAL DE NEGROS Y BLANCOS PASTO" 
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Black"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"  Margin="10,10,10,10" >
+
+                <ScrollView Orientation="Horizontal" >
+
+                    <StackLayout Orientation="Horizontal"
+                             HeightRequest="180" Spacing="2">
+
+                        <Image HorizontalOptions="StartAndExpand"
+                       Source="https://i.ytimg.com/vi/-XmqLvfXCHs/hqdefault.jpg"/>
+
+                        <Image HorizontalOptions="FillAndExpand"
+                       Source="https://i.ytimg.com/vi/7YZviEi0sOc/maxresdefault.jpg"/>
+
+                        <Image HorizontalOptions="FillAndExpand"
+                       Source="https://4.bp.blogspot.com/-tsDjc1CQOL4/WlKcB797uVI/AAAAAAABNpw/WbuvtX78kHMe_UwjTpu0RSlVP7k_0S-7QCEwYBhgL/s1600/Carroza%2B3.jpg"/>
+
+                        <Image HorizontalOptions="FillAndExpand"
+                       Source="https://i.pinimg.com/originals/bf/04/91/bf049155d902f3b4cb81aea06b0f9928.jpg"/>
+
+                    </StackLayout>
+
+                </ScrollView>
+
+
+
+            </StackLayout>
+
+            <ScrollView Orientation="Vertical">
+
+                <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+
+                    <Button Text="PROGRAMACION"
+                    TextColor="White"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#E74C3C"
+                    />
+
+                    <Button Text="VER GALERIA"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#A569BD"
+                    TextColor="White"
+                    />
+
+                    <Button Text="VER RECORRIDO"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#3498DB"
+                    TextColor="White"
+                        />
+
+                    <Button Text="PATROCINADORES"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#52BE80"
+                    TextColor="White"
+                       />
+
+                    <Button Text="HISTORIA"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#E74C3C"
+                    TextColor="White"
+                        />
+
+                    <Button Text="NOTICIAS"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#A569BD"
+                    TextColor="White"
+                        />
+
+                    <Button Text="CONVOCATORIAS"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#3498DB"
+                    TextColor="White"
+                        />
+
+                    <Button Text="CERRAR SESION"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="60"
+                    BackgroundColor="#52BE80"
+                    TextColor="White"
+                     />
+
+                </StackLayout>
+
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

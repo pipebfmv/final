@@ -1,35 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:UltimaApp"
-             x:Class="UltimaApp.MainPage">
-
-    <StackLayout
+             x:Class="UltimaApp.Registro">
+    <ContentPage.Content>
+        <StackLayout
         Orientation="Vertical"
         VerticalOptions="Center">
 
-        <Entry
+            <Entry
             x:Name="entryUser"
             Placeholder="Nombre de usuario"/>
 
-        <Entry
+            <Entry
             x:Name="entryPasword"
             IsPassword="True"
             Placeholder="Constraseña"/>
 
-        <Button
-            Text="Ingresar"
+            <Button
+            Text="Registrar"
             BackgroundColor="Black"
             TextColor="White"
-            Clicked="ButtonClicked"/>
+            Clicked="ClickCreateUser"/>
 
-        <Button
-            Text="Registrarse"
+            <Button
+            Text="Menu"
             BackgroundColor="Black"
             TextColor="White"
-            Clicked="ButtonRegistro"/>
+            Clicked="ButtonMenu"/>
 
 
-    </StackLayout>
-
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
