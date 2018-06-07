@@ -50,6 +50,7 @@
                     HorizontalOptions="FillAndExpand"
                     HeightRequest="60"
                     BackgroundColor="#E74C3C"
+                    Clicked="ButtonProgramacion"
                     />
 
                     <Button Text="VER GALERIA"

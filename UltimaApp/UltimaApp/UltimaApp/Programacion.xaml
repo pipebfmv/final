@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.Programacion">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+
+            <StackLayout HorizontalOptions="CenterAndExpand">
+
+                <Label Text="PROGRAMACION OFICIAL" 
+                       FontSize="20"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                               
+                       />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+
+                <ScrollView Orientation="Vertical">
+
+                    <StackLayout>
+
+                        <StackLayout Orientation="Vertical"  BackgroundColor="#E74C3C">
+
+                            <Label Text="28 de Diciembre"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="La música acompaña a los más de 4 mil asistentes al evento de apertura de precarnaval. Pasto vive Arcoiris en el asfalto. Personas se concentran sobre la Cra 24 , LA CALLE DEL COLORADO para pintar de colores el asfalto de esta importante calle de la ciudad, CORPOCARNAVAL te invita a participar de este evento que año a año va adquiriendo importancia 
+
+                                    En 1996, como una alternativa cultural y ecológica al Carnaval del agua y recogiendo iniciativas de estudiantes vinculados a la facultad de artes de la Universidad de Nariño, se crea el proyecto de ARCOIRIS EN EL ASFALTO. 
+
+                                    Por medio del arte y usando la imaginación, con el color de las tizas sobre el gris del concreto se invita a recuperar el espacio urbano y el sentido del Carnaval."
+                                       HorizontalOptions="Start"
+                                       FontSize="8"
+                                       TextColor="Black"
+                                          />
+
+
+                                <Image Source="https://rainbowgram.files.wordpress.com/2014/12/2d3f0-10895480_544086292360380_1274401568_n.jpg?w=640"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#A569BD">
+
+                            <Label Text="29 de Diciembre"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                    Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="El ambiente festivo de propios y visitantes se convierte en un eslabón más de
+                                       generaciones comprometidas en la fiesta. Los grupos musicales y el público participante
+                                       hacen de este evento un espacio en donde todos gozan y se recrean con las mejores canciones 
+                                       y el recuerdo de otras épocas.La plaza de Nariño es el espacio natural para el encuentro
+                                       de artistas nacionales e internacionales que alternan con orquestas de la región. El público 
+                                       asistente participa, canta y goza con la música festiva del recuerdo."
+                                       HorizontalOptions="Start"
+                                       FontSize="8"
+                                       TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://pagina10.com/web/wp-content/uploads/2015/12/dc573623a2e17d2549ff23899b826758.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#3498DB">
+
+                            <Label Text="30 de Diciembre"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                    Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="El Departamento de Nariño, desde tiempos ancestrales ha sido
+                                       fuerte en la música de cuerdas y en la ciudad de Pasto durante todo 
+                                       el tiempo se mantiene viva la tradicional serenata. Al caer la tarde
+                                       del 30 de Diciembre, en un cálido ambiente romántico se reúnen los más 
+                                       famosos tríos de la ciudad y del departamento, que alternando con otros 
+                                       invitados, ofrecen un verdadero espectáculo. Dando inicio a la Serenata 
+                                       a Pasto en el tablado principal de la Plaza de Nariño, los acordes 
+                                       muestran el profesionalismo de quienes la interpretan y hacen de esta serenata, 
+                                       el mejor marco romántico para aquellos que comparten lo sublime de la música y de
+                                       la poesía unidas en la complicidad de voces y cuerdas que forjan una amalgama de 
+                                       grandes sentimientos. Mientras los tríos le cantan a Pasto, Pasto le canta a Colombia.
+                                       Los Tríos que deleitaron el oído de los asistentes fueron: Trío los Duque, Trío los 
+                                       Armónicos, Trío los Románticos, Somos Trío,
+                                       Trío Cantoral, Trío Clase, Pasión Latina Trío, Trío Andaluz."
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                      TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://pagina10.com/web/wp-content/uploads/2015/12/25dac8441fc09ac8d48d200b47da0783.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#52BE80">
+
+                            <Label Text="31 de Diciembre"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                               Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text=" Si bien es cierto, la actividad principal 
+                                       del 31 de Diciembre es el Desfile de los Años Viejos, 
+                                       en contraste, la Reina del Carnaval abre el evento en 
+                                       un colorido desfile de carros antiguos, los cuales deben 
+                                       cumplir con un mínimo de requisitos para poder participar
+                                       de la muestra que se hace a lo largo de la Senda del Carnaval"
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                       TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://www.colombia.co/wp-content/uploads/2014/10/2170091741_1010d3744c.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#E74C3C">
+
+                            <Label Text="2 de Enero"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text=" Aquello que comenzó como un juego de niños imitando a sus mayores, 
+                                       recreando el Desfile del día de Blancos, se ha convertido en un evento con 
+                                       identidad y dinámica propia dentro de las fiestas de Negros y Blancos, con 
+                                       intenso arraigo popular y apoyo de todos los sectores comprometidos en el 
+                                       Carnaval. Desde hace unos 40 años, el día 2 de Enero los niños realizan su
+                                       propio Desfile de Carrozas en escala infantil, concebidas y elaboradas por 
+                                       ellos mismos, en aquello que para muchos es una iniciación en la actividad 
+                                       artesanal y artística, en elaborar carrozas y alegorías ambulantes. Con el 
+                                       correr del tiempo ese juego se transformará paralelamente con el crecimiento 
+                                       físico e intelectual del pequeño artista y jugador, que culmina, alcanzada su
+                                       edad adulta, con su participación en el gran Desfile Magno del 6 de Enero.
+                                       En el Carnvalal de Negros y Blancos de Pasto la música es una parte fundamental 
+                                       y el Rock no podía quedarse al margen de esta celebración. Con bandas locales, 
+                                       nacionales e internacionales el Rock se toma el carnaval en un evento especialmente 
+                                       dedicado a este género que mueve multitudes.
+"
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                      TextColor="Black"
+                                       />
+
+
+                                <Image Source="https://i0.wp.com/www.elsantuariodelrock.com/blog/wp-content/uploads/2016/12/animal-colombia-2017-pasto.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#A569BD">
+
+                            <Label Text="3 de Enero"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="Los Colectivos Coreográficos, caracterizados por contar, cada uno, con varios
+                                       centenares de músicos y danzantes de vistoso colorido y ritmo, fueron separados del 
+                                       Desfile Magno para crear un nuevo desfile de carácter eliminatorio, el cual se realiza 
+                                       el 3 de Enero, en un recorrido por la Senda del Carnaval en sentido inverso al de los demás
+                                       desfiles, culminando en la noche en el Estadio Departamental Libertad representando motivos
+                                       de origen andino. De este desfile, el jurado calificador designa un ganador, y éste, junto con 
+                                       el que obtiene el segundo puesto, son los únicos Colectivos Coreográficos que participarán el 6 
+                                       de Enero.Concierto Música Latinoamericana La ubicación geográfica, tanto de la ciudad de Pasto, 
+                                       como del departamento de Nariño ha permitido, a través e los tiempos, darle a la música un matiz
+                                       especial con la influencia de Los Andes, y en estas circunstancias el intercambio cultural con los 
+                                       países andinos ha logrado arraigar en nuestro medio una influencia muy notoria de la música latinoamericana.
+                                       Es una presentación artística en donde los sonidos y los rituales invitan a compartir espiritualmente el
+                                       bagaje de nuestros antepasados."
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                        TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://4.bp.blogspot.com/-vglXhpATbYs/Uh0ZWvRO0KI/AAAAAAAAABc/HGOKjrKokOw/s640/Pasto6.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#3498DB">
+
+                            <Label Text="4 de Enero"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text=" El 4 de Enero de 1939 se organizaba una cabalgata de más de 150 jinetes
+                                       como vísperas al juego del 5 y 6 de Enero, en ese momento arriba a Pasto una 
+                                       familia colono antioqueña provenientes del oriente, compuesta por el padre, la madre,
+                                       y sus hijos seguidos por peones cargados de petacas, baúles, jaulas con animales y otras
+                                       pertenencias. Estos jinetes incluyeron a los viajeros en medio del desfile en trance de
+                                       promocionar los carnavales. El grito histórico resonó alegre dándoles la bienvenida:
+                                       Que Viva la Familia Castañeda.Los desfiles tradicionales del Carnaval de Pasto empiezan 
+                                       conmemorando la Llegada de la Familia Castañeda el día 4 de Enero, en una conmemoración
+                                       tradicional de este hecho, se organizan bloques representativos de diferentes grupos familiares
+                                       como médicos, ingenieros, militares, maestros, empleados, que se exhiben en su recorrido a lo largo de la Senda del Carnaval."
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                      TextColor="Black"
+                                       />
+
+
+                                <Image Source="https://i.ytimg.com/vi/DCuwk6PCt9Y/hqdefault.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#52BE80">
+
+                            <Label Text="5 de Enero"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="l 5 de Enero está dedicado al Día de los Negros. Durante esta jornada
+                                       se conmemora el día libre que tenían los esclavos para compartir y dar rienda 
+                                       suelta a sus desahogos lúdicos.Dicen los historiadores que hacia el año de 1.854 ya 
+                                       se jugaba un Día de Negros, en conmemoración de aquel día libre que se decretó para 
+                                       las gentes de color. El Día de Negros era para tiznar las caras de cuantas personas 
+                                       se encontraban al paso, cantando y bailando al son de la música autóctona de orquestas improvisadas.
+                                       El 5 de Enero está dedicado al Día de los Negros y gracias a la actividad juego de identidad
+                                       que cada año permite la participación de las comunas de Pasto y más de 3.000 personas. Corpocarnaval
+                                       desde hace 3 años se ha dedicado a motivar a los líderes comunales a participar del fortalecimiento 
+                                       de las tradiciones en sus barrios y a integrarse en torno a la gestión de motivar a los habitantes de 
+                                       la ciudad al juego, como esencia de nuestro Patrimonio."
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                      TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://narino.info/wp-content/uploads/2014/01/5-enero-2014-pasto.jpg"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="#E74C3C">
+
+                            <Label Text="6 de Enero"
+                               FontSize="15"
+                               TextColor="White"
+                               FontAttributes="Italic"
+                                   Margin="20,0,0,0"/>
+
+                            <StackLayout Orientation="Horizontal" Spacing="0" HeightRequest="150" Margin="10,10,10,10">
+
+
+                                <Label Text="El 6 de Enero es el día de la Fiesta Grande, Día del Desfile Magno. 
+                                       En contraste con el día anterior, en esta fecha los pastusos se pintan de blanco,
+                                       generalmente con talco industrial o perfumado, usándose muy poco la harina, y las
+                                       pinturas cosméticas. La atracción principal, además de verbenas populares en las plazas y 
+                                       calles de la ciudad, es el llamado Desfile de Carrozas, el gran desfile que cubre un recorrido 
+                                       aproximado de siete kilómetros, en un sendero que recorre las calles del centro de la ciudad,
+                                       pasando por la Plaza del Carnaval y parte de las avenidas de la periferia que en conjunto,
+                                       conforman la llamada Senda del Carnaval. La gran mayoría de los ciudadanos, más otros tantos
+                                       miles de turistas y visitantes se vuelcan a las calles para presenciar este Desfile Magno, 
+                                       aplaudiendo y arrojando confeti o serpentinas a los participantes, todos danzando al ritmo 
+                                       de canciones tradicionales y típicas, como La Guaneña, El Trompo Sarandengue, el Son Sureño,
+                                       El Chambú, y otros ritmos como sayas y composiciones andinas inéditas que se estrenan cada año. 
+                                       Las expresiones características de este día son: ¡Viva el 6 de Enero!, !Que vivan los Blancos!
+                                       y en los últimos años se ha convertido en infaltable: ¡Que viva Pasto Carajo!, pronunciado tanto por lugareños como por turistas. "
+                                       HorizontalOptions="StartAndExpand"
+                                       FontSize="8"
+                                      TextColor="Black"
+                                       />
+
+
+                                <Image Source="http://3.bp.blogspot.com/-r_TQSjTKh40/VKAA5qI-yzI/AAAAAAAAL08/0f5zN-w8bBA/s1600/_DSC0604.JPG"
+                                       HorizontalOptions="End"/>
+
+
+
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                    </StackLayout>
+                </ScrollView>
+
+
+            </StackLayout>
+
+            <Button Text="MENU PRINCIPAL"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    Clicked="ButtonMenu"
+                    BackgroundColor="Orange"
+                    TextColor="White"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

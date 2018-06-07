@@ -10,18 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace UltimaApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class home : ContentPage
+	public partial class Programacion : ContentPage
 	{
-		public home ()
+		public Programacion ()
 		{
 			InitializeComponent ();
 		}
 
-
-        async private void ButtonProgramacion(object sender, EventArgs e)
+        async private void ButtonMenu(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Programacion());
+            await Navigation.PushAsync(new home());
         }
-
     }
 }

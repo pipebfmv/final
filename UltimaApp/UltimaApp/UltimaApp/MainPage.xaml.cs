@@ -15,18 +15,13 @@ namespace UltimaApp
     {
         private const string Url = "https://jonmidpruebanode.herokuapp.com/users";
         private readonly HttpClient client = new HttpClient();
-        private ObservableCollection<Users> _user;
-        String c;
-
-        public MainPage()
+       
+             public MainPage()
         {
             InitializeComponent();
         }
-
-
-        
-        
-        // Se crea el metodo que se llama cuando se da click al boton
+                        
+               // Se crea el metodo que se llama cuando se da click al boton
         async private void ButtonClicked(object sender, EventArgs e)
         {
             
@@ -52,8 +47,7 @@ namespace UltimaApp
             
         }
 
-
-    
+           
         async private void ButtonRegistro(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Registro());
