@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:UltimaApp"
              x:Class="UltimaApp.MainPage">
 
-	<Label Text="Welcome to Tijuana" 
+	<Label Text="Welcome to Tijuana felipe hola" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
