@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:UltimaApp"
              x:Class="UltimaApp.MainPage"
+             
              >
     
     <StackLayout Orientation="Vertical" Margin="5,15,5,5">
@@ -11,7 +12,7 @@
 
         <StackLayout
         Orientation="Vertical"
-        VerticalOptions="Center" Margin="5,5,5,5" Padding="0,0,0,150">
+        VerticalOptions="Center"  Padding="0,0,0,150">
 
 
             <Entry
@@ -25,17 +26,19 @@
 
         <Button
             Text="Ingresar"
-            BackgroundColor="Black"
+            BackgroundColor="#27AE60"
             TextColor="White"
             Clicked="ButtonClicked"/>
 
         <Button
             Text="Registrarse"
-            BackgroundColor="Black"
+            BackgroundColor="#27AE60"
             TextColor="White"
             Clicked="ButtonRegistro"/>
 
+         
+           
 
-    </StackLayout>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
