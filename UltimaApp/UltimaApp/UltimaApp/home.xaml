@@ -58,7 +58,8 @@
                     HeightRequest="60"
                     BackgroundColor="#A569BD"
                     TextColor="White"
-                    />
+                    Clicked="ButtonGaleria"
+                            />
 
                     <Button Text="VER RECORRIDO"
                     HorizontalOptions="FillAndExpand"

@@ -23,5 +23,9 @@ namespace UltimaApp
             await Navigation.PushAsync(new Programacion());
         }
 
+        async private void ButtonGaleria(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Galeria());
+        }
     }
 }
