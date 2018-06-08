@@ -74,7 +74,8 @@
                     HeightRequest="60"
                     BackgroundColor="#52BE80"
                     TextColor="White"
-                       />
+                      Clicked="ButtonPatrocinadores"
+                            />
 
                     <Button Text="HISTORIA"
                     HorizontalOptions="FillAndExpand"

@@ -8,6 +8,7 @@
 
                 <Label Text="SENDA DEL CARNAVAL" 
                        VerticalOptions="Center"
+                       HorizontalOptions="Center"
                        FontSize="30"
                        TextColor="Orange"
                        FontAttributes="Bold"/>

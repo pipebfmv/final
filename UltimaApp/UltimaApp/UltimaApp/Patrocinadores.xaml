@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.Patrocinadores">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+            <Label Text="ESTOS SON LOS PATROCINADORES MAS DESTACADOS"
+                   TextColor="Gray"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   XAlign="Center"/>
+
+
+            <StackLayout Orientation="Horizontal" HeightRequest="200">
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                    
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/cedenar-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           HorizontalOptions="StartAndExpand"/>
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/corpocarnaval-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           HorizontalOptions="FillAndExpand"/>
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/hyundai-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                          />
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/ecopetrol-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/canal-1-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/ron-viejo-de-caldas-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/poker-babaria-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/union--del-sur-concesionaria-vial-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                    </StackLayout>
+                </ScrollView>
+                             
+                </StackLayout>
+            <StackLayout Orientation="Vertical" HeightRequest="200">
+                <ScrollView Orientation="Vertical">
+
+                    <StackLayout Orientation="Vertical">
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/davivienda--logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           VerticalOptions="StartAndExpand"/>
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/alcanos-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           VerticalOptions="FillAndExpand"/>
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/comfamiliar---de-narino-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                    <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/super--giros-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/babaria-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/loteria-de-medellin-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/hotel-lagos-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+                        <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/11_patrocinadores_destacados/bancolombia-logo-carnaval-de-negros-y-blancos-de-pasto.png"
+                           />
+
+
+                    </StackLayout>
+                </ScrollView>
+                
+                
+            </StackLayout>
+
+            <Button Text="MENU PRINCIPAL"
+                    VerticalOptions="EndAndExpand"
+                    TextColor="Black"
+                    BackgroundColor="Goldenrod"
+                    Clicked="ButtonMenu"
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

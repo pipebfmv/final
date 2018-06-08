@@ -33,5 +33,10 @@ namespace UltimaApp
             await Navigation.PushAsync(new Recorrido());
         }
 
+        async private void ButtonPatrocinadores(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Patrocinadores());
+        }
+
     }
 }
