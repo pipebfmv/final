@@ -66,7 +66,8 @@
                     HeightRequest="60"
                     BackgroundColor="#3498DB"
                     TextColor="White"
-                        />
+                       Clicked="ButtonRecorrido"
+                            />
 
                     <Button Text="PATROCINADORES"
                     HorizontalOptions="FillAndExpand"

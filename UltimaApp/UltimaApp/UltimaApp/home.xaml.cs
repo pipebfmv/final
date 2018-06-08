@@ -27,5 +27,11 @@ namespace UltimaApp
         {
             await Navigation.PushAsync(new Galeria());
         }
+
+        async private void ButtonRecorrido(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Recorrido());
+        }
+
     }
 }

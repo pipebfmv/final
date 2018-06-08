@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.Recorrido">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+            
+
+                <Label Text="SENDA DEL CARNAVAL" 
+                       VerticalOptions="Center"
+                       FontSize="30"
+                       TextColor="Orange"
+                       FontAttributes="Bold"/>
+
+            
+           
+                <Image Source="https://www.carnavaldepasto.org/images/2017_2018/01_imagenes/06_programacion/senda-del-carnaval-negros-y-blancos-pasto.jpg"/>
+
+            <ScrollView Orientation="Vertical">
+          
+                <Label Text="Ruta de Talleres del Carnaval 2017, es una solución informática que busca por medio de la tecnología visibilizar el desarrollo de las obras de carnaval en sus diferentes modalidades, desde el hecho de presentar al Maestro artista en el stenimiento del Patrimonio Cultural como un legado que entrega a Ciudad y el Mundo, en este espacio encontrará todos los talleres de carnaval con una rápida descripción del tema que el Maestro presenta y permitirá ademas tener georeferenciado el taller, permitiendo a los seguidores de los talleres desplazarse en una fantástica ruta a los talleres  y apreciar y vivencia esa magia del desarrollo del carnaval en vivo!, Invitamos a que sigas la Ruta de Talleres del Carnaval 2017 y te dejes transportar a otros mundos; a mundo de imaginación del carnaval de negros y blancos de Pasto."
+                       TextColor="Gray"
+                       FontAttributes="Bold"
+                       FontSize="Small"
+                       />
+
+                
+            </ScrollView>
+            
+         
+            <Button Text="MENU PRINCIPAL"
+                    TextColor="OrangeRed"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonMenu"/>
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
