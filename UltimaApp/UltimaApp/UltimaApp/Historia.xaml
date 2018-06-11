@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.Historia">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10" Orientation="Vertical">
+
+            <StackLayout Orientation="Vertical">
+
+                <ScrollView>
+
+                    <StackLayout>
+                    <Image HeightRequest="200"
+                           Source="https://admin.kienyke.com/wp-content/uploads/2018/01/Carnaval-de-Negros-y-Blancos.jpg"/>
+ 
+                    <Label Text="En la época de la Colonia, el 5 de enero solía escucharse una algarabía de tambores en las calles de San Juan de Pasto. Era el día en que los esclavos negros obtenían el permiso de sus amos para celebrar, por única vez en el año, su libertad. Entonces se lanzaban a los caminos y recordaban a sus ancestros a través de la música, la danza y la comida, y para expresar su anhelo de igualdad tiznaban, con carbón, a los blancos que se encontraban a su paso. Esa celebración, que despertaba a la ciudad entera, fue nombrada como la 'fiesta de los negritos', y era tanto el alboroto que en muchas oportunidades los blancos se dejaban contagiar, y dejando a un lado su estatus participaban. Así empezó el Carnaval de Negros y Blancos, una de las celebraciones emblemáticas de Colombia."
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"
+                   />
+
+                    <Image HeightRequest="200"
+                           Source="http://www.revistacredencial.com/credencial/sites/default/files/19_carroza_el_fotografo.jpg"/>
+
+                    <Label Text="En la época de la Colonia, el 5 de enero solía escucharse una algarabía de tambores en las calles de San Juan de Pasto. Era el día en que los esclavos negros obtenían el permiso de sus amos para celebrar, por única vez en el año, su libertad. Entonces se lanzaban a los caminos y recordaban a sus ancestros a través de la música, la danza y la comida, y para expresar su anhelo de igualdad tiznaban, con carbón, a los blancos que se encontraban a su paso. Esa celebración, que despertaba a la ciudad entera, fue nombrada como la 'fiesta de los negritos', y era tanto el alboroto que en muchas oportunidades los blancos se dejaban contagiar, y dejando a un lado su estatus participaban. Así empezó el Carnaval de Negros y Blancos, una de las celebraciones emblemáticas de Colombia."
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"
+                   />
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
