@@ -52,5 +52,12 @@ namespace UltimaApp
         {
             await Navigation.PushAsync(new Historia());
         }
+
+        async private void ButtonNoticias(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Noticias());
+        }
+
+     
     }
 }

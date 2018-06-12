@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UltimaApp.Noticias">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10" Orientation="Vertical">
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="NOTICIAS"
+                       TextColor="Black"
+                       XAlign="Center"
+                       VerticalOptions="StartAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
+
+                <ScrollView>
+
+                    <StackLayout>
+                        <Image HeightRequest="200"
+                           Source="http://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2018/04/a-indoamericanto.jpg?itok=RxoF_TPl"/>
+
+                        <Label Text="La Alcaldía de Washington entregó una proclamación especial a la participación del Carnaval de Negros y Blancos de Pasto durante la celebración Colombia: Land of Sabrosura Week desarrollada del 15 al 22 de abril. De esta forma se exalta a todos los artistas y ciudadanía en en general que por medio de sus labores contribuyen con la salvaguardia de nuestro Patrimonio y que además nos llena de orgullo para seguir fortaleciendo la promoción y difusión del carnaval en el mundo."
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"
+                   />
+
+                        <Image HeightRequest="200"
+                           Source="https://admin.bluradio.com/sites/default/files/styles/blu_medium_650x466/public/carnaval_negros_y_blancos_en_washington_foto_blu_radio.jpg?itok=-1Ait4oW"/>
+
+                        <Label Text="nvitación especial
+                                    Mañana miércoles 25 de abril viviremos una experiencia que nos llevará a conocer como la magna fiesta de los pastusos se transforma en sonidos, en imágenes, en letras que nos envuelven en fantásticas historias inspiradas en el Carnaval de Negros y Blancos de Pasto 
+                                        Lugar: Auditorio Casona Taminango.
+                                        Hora: 6:00 p.m.
+                                        Entrada libre
+                                        ¡Los esperamos!🎭"
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"         
+                   />
+
+                        <Image HeightRequest="200"
+                           Source="https://cdn.colombia.com/sdi/2013/01/04/ee812a599be8406c829948107d7c4dd7.jpg"/>
+
+                        <Label Text="La agenda de la misión cultural del Carnaval de Negros y Blancos de Pasto avanza exitosamente 👏🎭 y mañana estarán en el Teatro Lincoln compartiendo escenario con artistas colombianos, incluyendo a Gregorio Uribe y su Big Band, junto con nuestro Carnaval, se encargarán de hacer un ensamble musical con ritmos andinos, champeta, rock y pop 🎶 — en Banco Interamericano de Desarrollo."
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"         
+                   />
+
+                        <Image HeightRequest="200"
+                           Source="http://cr00.epimg.net/emisora/imagenes/2018/04/11/pasto/1523452226_743827_1523452342_noticia_normal.jpg"/>
+
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Button Text="MENU PRINCIPAL"
+                    TextColor="White"
+                    BackgroundColor="Orange"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonHome"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

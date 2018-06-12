@@ -94,15 +94,15 @@
                     HeightRequest="60"
                     BackgroundColor="#8A8E83"
                     TextColor="White"
-                      
+                      Clicked="ButtonNoticias"
                             />
 
-                    <Button Text="CONVOCATORIAS"
+                    <Button Text="GRUPOS"
                     HorizontalOptions="FillAndExpand"
                     HeightRequest="60"
                     BackgroundColor="#8A8E83"
                     TextColor="White"
-                       
+                     
                             />
 
                     <Button Text="CERRAR SESION"
