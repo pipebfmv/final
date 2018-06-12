@@ -24,15 +24,7 @@ namespace UltimaApp
 			InitializeComponent ();
 		}
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            if (Application.Current.Properties.ContainsKey("id_user"))
-            {
-                ShowWindowListContacts();
-            }
-        }
+ 
 
         public void ClickCreateUser(object sender, EventArgs e)
         {
@@ -56,7 +48,7 @@ namespace UltimaApp
             string message = await response.Content.ReadAsStringAsync();
             List<Users> users = JsonConvert.DeserializeObject<List<Users>>(message);
 
-            Application.Current.Properties["id_user"] = users[0].Id;
+          
             await DisplayAlert("Correcto", "Se ha creado un nuevo usuario", "OK");
             entryemail.Text = "";
             entryPasword.Text = "";
@@ -64,11 +56,7 @@ namespace UltimaApp
             entryUserNick.Text = "";
         }
 
-        async private void ShowWindowListContacts()
-        {
-            await Navigation.PushAsync(new home());
-        }
-
+  
 
       
         async private void ButtonMenu(object sender, EventArgs e)

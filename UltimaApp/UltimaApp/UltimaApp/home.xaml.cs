@@ -17,6 +17,16 @@ namespace UltimaApp
 			InitializeComponent ();
 		}
 
+        public void ClickButtonSignOff(object sender, EventArgs e)
+        {
+            Application.Current.Properties.Clear();
+            showWindowMainPage();
+        }
+
+        async public void showWindowMainPage()
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
 
         async private void ButtonProgramacion(object sender, EventArgs e)
         {

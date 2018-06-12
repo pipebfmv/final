@@ -46,10 +46,13 @@ namespace UltimaApp
                  string message = await response.Content.ReadAsStringAsync();
                List<Users> users = JsonConvert.DeserializeObject<List<Users>>(message);
 
-             if (users[0].Success)
+            
+
+            if (users[0].Success)
              {
               Application.Current.Properties["id_user"] = users[0].Id;
-             Home();
+                await DisplayAlert("Correcto", "Acaba de iniciar sesion", "OK");
+                Home();
              }
              else
              {

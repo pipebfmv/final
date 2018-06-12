@@ -110,7 +110,8 @@
                     HeightRequest="60"
                     BackgroundColor="#8A8E83"
                     TextColor="Black"
-                     />
+                    Clicked="ClickButtonSignOff"
+                            />
 
                 </StackLayout>
 
