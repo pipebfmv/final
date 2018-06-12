@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UltimaApp.Registro">
     <ContentPage.Content>
-        <StackLayout
+
+        <StackLayout Orientation="Vertical" Margin="5,15,5,5">
+            <Image VerticalOptions="StartAndExpand"  
+            Source="http://i.imgur.com/TG8VY.png"/>
+
+            <StackLayout
         Orientation="Vertical"
         VerticalOptions="Center">
 
@@ -16,7 +21,16 @@
             IsPassword="True"
             Placeholder="Constraseña"/>
 
-            <Button
+                <Entry
+            x:Name="entryUserNick"
+            Placeholder="Nick Name"/>
+
+                <Entry
+            x:Name="entryemail"
+            Placeholder="Correo"/>
+                
+                
+                <Button
             Text="Registrar"
             BackgroundColor="Black"
             TextColor="White"
@@ -29,6 +43,7 @@
             Clicked="ButtonMenu"/>
 
 
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

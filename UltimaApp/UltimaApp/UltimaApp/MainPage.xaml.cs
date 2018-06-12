@@ -13,37 +13,49 @@ namespace UltimaApp
 {
     public partial class MainPage : ContentPage
     {
-        private const string Url = "https://jonmidpruebanode.herokuapp.com/users";
+        private const string UrlRoot = "https://pipeapicarnaval.herokuapp.com/";
+        private const string UrlValidarUser = UrlRoot + "validateUser";
         private readonly HttpClient client = new HttpClient();
-       
-             public MainPage()
+
+        public MainPage()
         {
             InitializeComponent();
         }
-                        
-               // Se crea el metodo que se llama cuando se da click al boton
-        async private void ButtonClicked(object sender, EventArgs e)
+
+        protected override void OnAppearing()
         {
+            base.OnAppearing();
+
+            if (Application.Current.Properties.ContainsKey("id_user"))
+            {
+                Home();
+            }
+        }
+
+        // Se crea el metodo que se llama cuando se da click al boton
+
+    
+    async private void ButtonClicked(object sender, EventArgs e)
+        {
+             Users user = new Users() { Username = entryUser.Text, Password = entryPasword.Text };
+
+            var json = JsonConvert.SerializeObject(user);
+                     var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                  HttpResponseMessage response = await client.PostAsync(UrlValidarUser, content);
+                 string message = await response.Content.ReadAsStringAsync();
+               List<Users> users = JsonConvert.DeserializeObject<List<Users>>(message);
+
+             if (users[0].Success)
+             {
+              Application.Current.Properties["id_user"] = users[0].Id;
+             Home();
+             }
+             else
+             {
+               await DisplayAlert("Error", "El usuario no existe", "OK");
+             }
             
-      
-                     // Vamos a validar que los campos no esten vacios
-            if (string.IsNullOrEmpty(entryUser.Text) || string.IsNullOrEmpty(entryPasword.Text))
-
-            {
-
-                await DisplayAlert("Error", "Debe escribir usuario y contraseña", "OK");
-            }
-            else if (entryUser.Text=="pipe")
-            {
-               // pasar();
-                await DisplayAlert("Correcto", "Bienvenido", "OK");
-                await Navigation.PushAsync(new home());
-            }
-            else
-            {
-                await DisplayAlert("Error", "EL USUARIO NO EXISTE", "OK");
-            }
-
             
         }
 
@@ -53,6 +65,10 @@ namespace UltimaApp
             await Navigation.PushAsync(new Registro());
         }
 
+        async private void Home()
+        {
+            await Navigation.PushAsync(new home());
+        }
     }
     
 }
