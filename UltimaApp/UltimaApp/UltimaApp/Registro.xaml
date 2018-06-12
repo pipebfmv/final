@@ -6,7 +6,7 @@
 
         <StackLayout Orientation="Vertical" Margin="5,15,5,5">
             <Image VerticalOptions="StartAndExpand"  
-            Source="http://i.imgur.com/TG8VY.png"/>
+            Source="http://3.bp.blogspot.com/-b9JvWcvYPOg/VNPvvUJjhUI/AAAAAAAAADA/WOEMGx18HKY/s1600/Bienvenidos.jpg"/>
 
             <StackLayout
         Orientation="Vertical"
