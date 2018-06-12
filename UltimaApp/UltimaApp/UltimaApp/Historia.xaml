@@ -6,6 +6,12 @@
         <StackLayout Margin="10,10,10,10" Orientation="Vertical">
 
             <StackLayout Orientation="Vertical">
+                <Label Text="HISTORIA DEL CARNAVAL"
+                       TextColor="Black"
+                       XAlign="Center"
+                       VerticalOptions="StartAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
 
                 <ScrollView>
 
@@ -21,13 +27,28 @@
                     <Image HeightRequest="200"
                            Source="http://www.revistacredencial.com/credencial/sites/default/files/19_carroza_el_fotografo.jpg"/>
 
-                    <Label Text="En la época de la Colonia, el 5 de enero solía escucharse una algarabía de tambores en las calles de San Juan de Pasto. Era el día en que los esclavos negros obtenían el permiso de sus amos para celebrar, por única vez en el año, su libertad. Entonces se lanzaban a los caminos y recordaban a sus ancestros a través de la música, la danza y la comida, y para expresar su anhelo de igualdad tiznaban, con carbón, a los blancos que se encontraban a su paso. Esa celebración, que despertaba a la ciudad entera, fue nombrada como la 'fiesta de los negritos', y era tanto el alboroto que en muchas oportunidades los blancos se dejaban contagiar, y dejando a un lado su estatus participaban. Así empezó el Carnaval de Negros y Blancos, una de las celebraciones emblemáticas de Colombia."
+                        <Label Text="El carnaval de Negros y Blancos de Pasto, es el más antiguo, el de mayor multiculturalismo y, en consecuencia, el más abierto y participativo de Colombia. Esta fiesta colectiva expresa el consenso entre siete culturas e idiomas muy diferentes entre si, todas ellas presentes en aquella ciudad desde 1540. En el libro digital y el video se demuestra que fue creación netamente popular y pastusa, sostenida desde el siglo XVIII por los vecinos de la parroquia de San Sebastián, uno de los santos más populares en Europa. Existe documentación de aquel siglo que así lo comprueba y el recuerdo entre los integrantes de su cofradía que, fundada en 1580, aun sigue vigente."
                          VerticalOptions="FillAndExpand" 
-                         XAlign="Center"
+                         XAlign="Center"         
                    />
+
+                        <Image HeightRequest="200"
+                           Source="http://pagina10.com/web/wp-content/uploads/2012/12/28232e87509dedeadc0cd2b6a94ea3f5.jpg"/>
+
+                        <Label Text="Históricamente, el Carnaval de Pasto adquirió una especial y vitalista dedicatoria a la niñez y la juventud, y, al mismo tiempo, un énfasis en las tres últimas fases de aquella secuencia de fiestas. Es por ello que, desde hace unos noventa años, se lo conoce como Carnaval de Negros y Blancos a realizarse el 4 (día de la Familia Castañeda y de lo rural Americano), el 5 (día del Juego de Negros y de Africa) y el 6 (día del Juego de Blancos y de Europa) de Enero. En el año de 2009 fue reconocido este evento por la UNESCO como Patrimonio Inmaterial de la Humanidad."
+                         VerticalOptions="FillAndExpand" 
+                         XAlign="Center"         
+                   />
+
                     </StackLayout>
                 </ScrollView>
             </StackLayout>
+
+            <Button Text="MENU PRINCIPAL"
+                    TextColor="White"
+                    BackgroundColor="Orange"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonHome"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

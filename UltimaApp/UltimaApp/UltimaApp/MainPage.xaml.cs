@@ -42,9 +42,9 @@ namespace UltimaApp
             var json = JsonConvert.SerializeObject(user);
                      var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                  HttpResponseMessage response = await client.PostAsync(UrlValidarUser, content);
-                 string message = await response.Content.ReadAsStringAsync();
-               List<Users> users = JsonConvert.DeserializeObject<List<Users>>(message);
+            HttpResponseMessage response = await client.PostAsync(UrlValidarUser, content);
+            string message = await response.Content.ReadAsStringAsync();
+            List<Users> users = JsonConvert.DeserializeObject<List<Users>>(message);
 
             
 

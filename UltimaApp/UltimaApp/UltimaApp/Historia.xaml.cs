@@ -16,5 +16,11 @@ namespace UltimaApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void ButtonHome()
+        {
+            await Navigation.PushAsync(new home());
+        }
+
+    }
 }
